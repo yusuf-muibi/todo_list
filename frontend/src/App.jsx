@@ -9,14 +9,14 @@ const App = () => {
     const [tasks, setTasks] = useState([]);
 
     useEffect(() => {
-        axios.post('http://localhost:5000/tasks').then((response) => {
+        axios.post('https://todo-list-rxaj.onrender.com/tasks').then((response) => {
             setTasks(response.data);
         });
     }, []);
 
     const addTask = (title, description) => {
         const newTask = { title, description, status: 'Pending' };
-        axios.post('http://localhost:5000/newTask', newTask).then((response) => {
+        axios.post('https://todo-list-rxaj.onrender.com/newTask', newTask).then((response) => {
             setTasks((prevTasks) => [...prevTasks, response.data]);
         });
     };
@@ -24,7 +24,7 @@ const App = () => {
     const updateTaskStatus = (id, newStatus) => {
         const task = tasks.find((task) => task._id === id);
         const updatedTask = { ...task, status: newStatus, timestamp: newStatus === 'Completed' ? new Date() : task.timestamp };
-        axios.put(`http://localhost:5000/tasks/${id}`, updatedTask).then((response) => {
+        axios.put(`https://todo-list-rxaj.onrender.com/tasks/${id}`, updatedTask).then((response) => {
             setTasks(tasks.map((task) => (task._id === id ? response.data : task)));
         });
     };
@@ -32,7 +32,7 @@ const App = () => {
     const deleteTask = (id) => {
         const confirmed = window.confirm("Are you sure you want to delete this task?");
         if (confirmed) {
-            axios.delete(`http://localhost:5000/tasks/${id}`).then(() => {
+            axios.delete(`https://todo-list-rxaj.onrender.com/tasks/${id}`).then(() => {
                 setTasks(tasks.filter((task) => task._id !== id));
             });
         }
