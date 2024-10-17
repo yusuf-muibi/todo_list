@@ -1,6 +1,6 @@
 # To-Do List Application
 
-Welcome to the To-Do List Application! This project is a simple yet effective way to manage your tasks and keep track of what needs to be done. Built using [technology stack, e.g., Node.js, Express, MongoDB, etc.], this application allows users to create, read, update, and delete tasks efficiently.
+Welcome to the To-Do List Application! This project is a simple yet effective way to manage your tasks and keep track of what needs to be done. Built using [technology stack, Node.js, Express, MongoDB], this application allows users to create, read, update, and delete tasks efficiently.
 
 ## Features
 
@@ -10,35 +10,9 @@ Welcome to the To-Do List Application! This project is a simple yet effective wa
 - **Responsive Design:** Access your to-do list on various devices, including desktops and mobiles.
 - **Filter and Sort Tasks:** Easily manage your tasks by filtering or sorting them based on different criteria.
 
-## Installation
+## To access the application
+Open your web browser and navigate to: https://github.com/yusuf-muibi/todo_list.git
 
-To get started with the To-Do List Application, follow these steps:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yusuf-muibi/todo_list.git
-   ```
-   
-2. **Navigate to the Project Directory:**
-   ```bash
-   cd todo_list
-   ```
-
-3. **Install Dependencies:**
-   ```bash
-   npm install
-   ```
-
-4. **Set Up the Environment Variables:**  
-   Create a `.env` file in the root directory and add the necessary environment variables (e.g., database connection strings).
-
-5. **Start the Application:**
-   ```bash
-   npm start
-   ```
-
-6. **Access the Application:**  
-   Open your web browser and navigate to `http://localhost:3000` (or the appropriate port specified).
 
 ## Usage
 
@@ -51,9 +25,9 @@ Once the application is running, you can:
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript (or any frameworks you used, like React or Vue.js)
+- **Frontend:** HTML, CSS, JavaScript 
 - **Backend:** Node.js, Express
-- **Database:** MongoDB (or any other database used)
+- **Database:** MongoDB 
 
 
 ## Contact
