@@ -60,7 +60,7 @@ Once the application is running, you can:
 
 For any questions or suggestions, feel free to reach out to us:
 
-- **GitHub:** [yusuf-muibi](https://github.com/yusuf-muibi)
+- **GitHub:** [yusuf-muibi](https://github.com/yusuf-muibi/todo_list)
 - **Email:** [muibiyusuf@hotmail.com]
 - **Email:** [owolabioluwasemilogo04@gmail.com]
 
