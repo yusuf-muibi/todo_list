@@ -61,7 +61,7 @@ Once the application is running, you can:
 For any questions or suggestions, feel free to reach out to us:
 
 - **GitHub:** [yusuf-muibi](https://github.com/yusuf-muibi)
-- **Email:** [your-email@example.com](mailto:muibiyusuf@hotmail.com)
-- **Email:** [your-email@example.com](mailto:owolabioluwasemilogo04@gmail.com)
+- **Email:** [muibiyusuf@hotmail.com]
+- **Email:** [owolabioluwasemilogo04@gmail.com]
 
 Thank you for checking out the To-Do List Application!
